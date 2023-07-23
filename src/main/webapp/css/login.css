@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid white;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_logo__hiden {
+    margin-top: 10px;
+}
+
+.header_login ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.header_login ul li {
+    margin: 20px;
+}
+
+.header_login ul li a {
+    text-decoration: none;
+}
+
+.p_white {
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+#btnMuaApp {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    border-radius: 5px;
+}
+
+
+.header_nav .main_menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_nav .main_menu li {
+    display: block;
+    padding: 5px 20px;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    position: relative;
+}
+
+.header_nav .main_menu li a:hover {
+    color: rgb(13, 195, 13);
+}
+
+.sub_menu {
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    background-color: #262626;
+    padding: 0;
+    margin-top: 5px;
+    display: none;
+    margin-left: -20px;
+}
+
+.header_nav .main_menu li:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.sub_menu li:hover {
+    background-color: rgba(72, 99, 72, 0.333);
+}
+
+.sub_menu li a:hover {
+    color: green;
+}
+
+.header_nav .main_menu li a {
+    text-decoration: none;
+}
+
+.form {
+    width: 400px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid rgb(198, 194, 194);
+    margin-top: 50px;
+    box-shadow: 0 0 2px rgb(152, 151, 151);
+}
+
+.form input {
+    margin: 10px 0px;
+    text-align: left;
+}
+
+.login {
+    margin-top: 50px;
+}
+
+.button {
+    margin-left: 255px;
+    color: white;
+    border: 0;
+    padding: 5px 10px;
+    width: 100px;
+    background-color: #72c02c;
+}
+
+.button:hover {
+    box-shadow: 0 0 20px #7bfd09;
+    background-color: #8bec35;
+}
+
+.buttonGroup .buttonGroup_button {
+    padding: 20px;
+}
+
+
+.buttonGroup .buttonGroup_button:hover {
+    box-shadow: 0 0 5px rgb(159, 158, 158);
+}
+
+footer {
+    background-color: #000;
+
+}
+
+.infomation {
+    background-color: #262626;
+    padding: 20px 0px;
+}
+
+.btn_title {
+    float: right;
+    margin-left: 10px;
+}
+
+.button_likeANDshare .btn_title:hover {
+    background-color: #dbdada;
+    box-shadow: 0 0 10px rgb(143, 141, 141);
+}
+
+.button_likeANDshare {
+    height: 50px;
+    padding: 0;
+}

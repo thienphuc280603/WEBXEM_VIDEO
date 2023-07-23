@@ -1,0 +1,165 @@
+body {
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background-color: rgba(0, 0, 0, 1);
+    border-bottom: 1px solid white;
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_logo__hiden {
+    margin-top: 10px;
+}
+
+.header_login ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.header_login ul li {
+    margin: 20px;
+}
+
+.header_login ul li a {
+    text-decoration: none;
+}
+
+.p_white {
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+#btnMuaApp {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    border-radius: 5px;
+}
+
+
+.header_nav .main_menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header_nav .main_menu li {
+    display: block;
+    padding: 5px 20px;
+    border-left: 1px solid green;
+    border-right: 1px solid green;
+    position: relative;
+}
+
+.header_nav .main_menu li a:hover {
+    color: rgb(13, 195, 13);
+}
+
+.sub_menu {
+    position: absolute;
+    z-index: 999;
+    width: 300px;
+    background-color: #262626;
+    padding: 0;
+    margin-top: 5px;
+    display: none;
+    margin-left: -20px;
+}
+
+.header_nav .main_menu li:hover .sub_menu {
+    display: block;
+}
+
+.sub_menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.sub_menu li:hover {
+    background-color: rgba(72, 99, 72, 0.333);
+}
+
+.sub_menu li a:hover {
+    color: green;
+}
+
+.header_nav .main_menu li a {
+    text-decoration: none;
+}
+
+.buttonGroup .buttonGroup_button {
+    padding: 20px;
+}
+
+
+.buttonGroup .buttonGroup_button:hover {
+    box-shadow: 0 0 5px rgb(159, 158, 158);
+    cursor: pointer;
+}
+
+footer {
+    background-color: #000;
+
+}
+
+.infomation {
+    background-color: #262626;
+    padding: 20px 0px;
+}
+
+.button .video_likebtn {
+    border: 0px;
+    padding: 5px 10px;
+    box-shadow: 0 0 5px rgb(197, 195, 195);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button .video_likebtn:hover {
+    box-shadow: 0 0 20px #7bfd09;
+    background-color: #8bec35;
+    color: white;
+}
+
+
+.button {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.video_a:hover #title {
+    color: rgba(255, 0, 0, 0.779);
+}
+
+#title {
+    padding: 0px 5px;
+    margin: 0;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+
+}
+
+.video {
+    background-color: rgb(234, 243, 243);
+}
+
+.main_title #description:hover {
+    color: rgb(112, 112, 204);
+}
+
+.buttonGroup{
+	margin-top: 500px;
+}
